@@ -1,0 +1,2 @@
+!function(){var t=document.querySelector('[id="search-box"]');t.addEventListener("input",(function(n){var e=t.value.trim();if(""===e)return;o=e,fetch("https://restcountries.com/v3.1/name/".concat(o,"?fields=").concat("name.official,capital,population,flags.svg,languages")).then((function(t){t.json()})).then(console.log()).catch((function(t){return Notiflix.Notify.failure("Oops, there is no country with that name")}));var o})),console.log()}();
+//# sourceMappingURL=index.f31d6dca.js.map
