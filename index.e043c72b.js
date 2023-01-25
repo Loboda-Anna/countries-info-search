@@ -1,2 +1,0 @@
-const t=document.querySelector('[id="search-box"]');t.addEventListener("input",(function(e){let o=t.value.trim();if(""===o)return;n=o,fetch(`https://restcountries.com/v3.1/name/${n}?fields=name.official,capital,population,flags.svg,languages`).then((t=>{t.json()})).then(console.log()).catch((t=>Notiflix.Notify.failure("Oops, there is no country with that name")));var n})),console.log();
-//# sourceMappingURL=index.e043c72b.js.map
