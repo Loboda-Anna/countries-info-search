@@ -18,3 +18,13 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+ul {
+  font-size: 24;
+  display: block;
+  list-style: none;
+  padding-left: 0;
+}
+
+.country-info > ul {
+  font-size: 20;
+}
