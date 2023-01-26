@@ -3,10 +3,13 @@ import fetchCountries from './fetchCountries';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 var debounce = require('lodash.debounce');
 
+
 const DEBOUNCE_DELAY = 300;
 const fieldEl = document.querySelector('[id="search-box"]');
-const countriesListEl = document.querySelector('.country-list');
-const countryInfoEl = document.querySelector('.country-info');
+export const countriesListEl = document.querySelector('.country-list');
+export const countryInfoEl = document.querySelector('.country-info');
+
+
 
 fieldEl.addEventListener('input', debounce(onFieldInput, DEBOUNCE_DELAY));
 
