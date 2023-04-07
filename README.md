@@ -1,5 +1,5 @@
 # Training Project
-## Technologies that is used:
+## Technologies that are used:
 - HTML;
 - JavaScript;
 - REST API;
